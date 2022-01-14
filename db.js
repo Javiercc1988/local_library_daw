@@ -1,6 +1,5 @@
 require("dotenv").config()
 
-
 const mongoose = require("mongoose")
 
 // const mongoDB = 'mongodb+srv://Javi:metal1988*@cluster0.alosw.mongodb.net/local_library?retryWrites=true&w=majority'
