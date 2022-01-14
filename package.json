@@ -3,11 +3,12 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node app",
+    "start": "node ./bin/www",
     "devstart": "nodemon ./bin/www"
   },
   "dependencies": {
     "async": "^3.2.2",
+    "compression": "^1.7.4",
     "cookie-parser": "~1.4.4",
     "cross-env": "^7.0.3",
     "crossenv": "^0.0.2-security",

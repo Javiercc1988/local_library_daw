@@ -6,7 +6,11 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
+var compression = require("compression");
+
 require('./db.js')
+
+app.use(compression())
 
 var indexRouter = require('./routes/index');
 var catalogRouter = require('./routes/catalog');
